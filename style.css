@@ -23,7 +23,6 @@ body{
     border-radius:10px;
 }
 .box:hover{
-    background-color:cyan;
     outline-width:thick;
     outline-color:rgb(69, 189, 229);
     outline-style:solid;
@@ -78,4 +77,17 @@ body{
 #new:hover{
     background-color:rgb(84, 222, 84);
     box-shadow: 0 0 10px lime;
+}
+
+#mode{
+    position:fixed;
+    top:2vmin;
+    cursor:pointer;
+    right:5vmin;
+    color:blue;
+    background-color:cyan;
+    border-radius:10%;
+    height:7vmin;
+    width:8vmin;
+    font-size:1em;
 }
