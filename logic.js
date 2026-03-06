@@ -103,7 +103,7 @@ newGame.addEventListener("click",()=>{
 const gameDraw = () => {
   msgContainer.innerText = "Game was a Draw";
     msgContainer.style.visibility = "visible";
-  disableBoxes();
+  disableboxes();
 };
 
 checkWinnwer=()=>{
